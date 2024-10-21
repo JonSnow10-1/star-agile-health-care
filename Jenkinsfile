@@ -25,7 +25,7 @@ pipeline {
     stage('Create Docker Image') {
       steps {
         echo 'This stage will create the docker image of the Healthcare application'
-        sh 'docker build -t ganesh/Healthcare:1.0'
+        sh 'docker build -t ganesh36/Healthcare:1.0'
       }
     }
   }
